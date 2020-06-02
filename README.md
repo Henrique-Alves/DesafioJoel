@@ -5,7 +5,7 @@
 ### imagem, nome, ano de lançamento, gênero e nota, obs: 3 cards por linha.
 
 ## A listagem será consumida de um arquivo com os objetos criados,
-##terá os atributos informados logo acima.
+## terá os atributos informados logo acima.
 
 ### Foi usado a fonte (Montserrat).
 
@@ -30,7 +30,7 @@ recebeImagem.
 * Criado a função addCard, para pegar as div's que foram criadas e add 
 no card do html.
 
-*criado um map para ir varrendo as funções e ir renderizando os cards.
+* criado um map para ir varrendo as funções e ir renderizando os cards.
 
 ### Criado o css estilo só para estilizar a pagina conforme os requisitos.
 
