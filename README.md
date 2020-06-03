@@ -1,23 +1,23 @@
 # DesafioJoel
-### O projeto conterá o Bootstrap, Html, Css e Js.
+#### O projeto conterá o Bootstrap, Html, Css e Js.
 
-### A proposta do projeto é listar 10 games em cards, deverá ter
-### imagem, nome, ano de lançamento, gênero e nota, obs: 3 cards por linha.
+#### A proposta do projeto é listar 10 games em cards, deverá ter
+#### imagem, nome, ano de lançamento, gênero e nota, obs: 3 cards por linha.
 
 ## A listagem será consumida de um arquivo com os objetos criados,
 ## terá os atributos informados logo acima.
 
-### Foi usado a fonte (Montserrat).
+#### Foi usado a fonte (Montserrat).
 
-### Na pagina html o link para usar bootstrap e criei tambem um 
-### link para uilizar meu proprio css, No corpo da pagina foi 
-### utilizado o nav do bootstrap dentro de "header", Foi criado
-### um card principal para o query selector fazer a varredura e
-### criar os cards a partir dessa tag, utilizando duas "div's e
-### p's, Nas tags scripts, utilizado os links "jquery.min.js e
-### bootstrap.min.js" e a importação da pagina de dados, o footer
-### foi criado a partir de um nav do bootstrap como a documentação
-### assim diz que pode ser utilizado para fazer o rodapé.
+#### Na pagina html o link para usar bootstrap e criei tambem um 
+#### link para uilizar meu proprio css, No corpo da pagina foi 
+#### utilizado o nav do bootstrap dentro de "header", Foi criado
+#### um card principal para o query selector fazer a varredura e
+#### criar os cards a partir dessa tag, utilizando duas "div's e
+#### p's, Nas tags scripts, utilizado os links "jquery.min.js e
+#### bootstrap.min.js" e a importação da pagina de dados, o footer
+#### foi criado a partir de um nav do bootstrap como a documentação
+#### assim diz que pode ser utilizado para fazer o rodapé.
 
 * Na pagina dados foi criado  arquivo com o objetos, objeto 
 listGames com um array games detro,
@@ -32,6 +32,6 @@ no card do html.
 
 * criado um map para ir varrendo as funções e ir renderizando os cards.
 
-### Criado o css estilo só para estilizar a pagina conforme os requisitos.
+#### Criado o css estilo só para estilizar a pagina conforme os requisitos.
 
 
