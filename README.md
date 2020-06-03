@@ -4,8 +4,8 @@
 #### A proposta do projeto é listar 10 games em cards, deverá ter
 #### imagem, nome, ano de lançamento, gênero e nota, obs: 3 cards por linha.
 
-**A listagem será consumida de um arquivo com os objetos criados,**
-   **terá os atributos informados logo acima.**
+<b>A listagem será consumida de um arquivo com os objetos criados,</b>
+ <b>terá os atributos informados logo acima.</b>
 
 #### Foi usado a fonte (Montserrat).
 
