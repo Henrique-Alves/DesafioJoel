@@ -82,29 +82,27 @@ const listGame = {
     ]
 }
 
-let card = document.querySelector('.cards');
-let linha= card.querySelector('card-text');
 
 const dados = listGame.games.map((item) => {
-    addCard(item);   
-             
+    addCard(item);            
 });
 
 function addCard(item){
-
     let divAll = document.querySelector('.cards');
-        divAll.appendChild(montadivcard(item));
-   
+        divAll.appendChild(montaDivCard(item)); 
 }
-function montadivcard(item){
+
+function montaDivCard(item){
    let divcard = document.createElement('div');
    divcard.appendChild(recebeImagem(item.tela,'card-img-top'));
+
    divcard.classList.add('card');
    divcard.appendChild(montaDivInterna(item));
    return divcard;
 }
 
 function recebeImagem(item, classe){
+    console.log(item);
     let imagem = document.createElement('img');  
     imagem.src = item;
     imagem.classList.add(classe);
@@ -131,6 +129,7 @@ function montaP(item,classe){
     p.classList.add(classe)
     return p
 }
+
 
 
 
