@@ -82,7 +82,6 @@ const listGame = {
     ]
 }
 
-
 const dados = listGame.games.map((item) => {
     addCard(item);            
 });
@@ -111,7 +110,6 @@ function recebeImagem(item, classe){
 }
 
 function montaDivInterna(item){
-
     let divInt = document.createElement('div')
     divInt.classList.add('card-body')
    
